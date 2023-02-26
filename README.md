@@ -22,9 +22,8 @@ To use this rep on your machine, requires some simple steps:
 
         git clone git@github.com:Austinjnr/e-commerceProduct-review.git
 
-2 Once it creates a copy on your local machine for you.
-
-3 Change directory to the repo folder:
+2. Once it creates a copy on your local machine for you.
+3. Change directory to the repo folder:
 
         cd e-commerceProduct-review
 
@@ -32,19 +31,17 @@ To use this rep on your machine, requires some simple steps:
 
         bundle install
 
-2 Once it creates a copy on your local machine for you.
-
 5. Open it in ``Visual Studio Code``
 
         code .
 
 6. Run the application on your terminal 
 
-        git clone 
+        rake console
 
 # License
 This project is licensed under the MIT
 
 # Author
 This repository is maintained by:
-    - [Austin Obonyo](https://github.com/Austinjnr)
+ - [Austin Obonyo](https://github.com/Austinjnr)

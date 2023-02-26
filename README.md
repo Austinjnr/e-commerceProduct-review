@@ -4,7 +4,7 @@ For this assignment, we'll be working with an e-commerce domain like Amazon. We'
 # Product-Review
 This is a Ruby project for an e-commerce product reviews system. The project includes three models: User, Review, and Product.
 
-# Pre-Requisites
+## Pre-Requisites
 In order to use this repository, you need the following:
    - Operating System: Windows,Linux or MacOS
    - RAM >=4GB
@@ -39,7 +39,7 @@ To use this rep on your machine, requires some simple steps:
 
         rake console
 
-# Application
+## Application
 This application allows users to:
 - Create some products
 - Create some users
@@ -48,6 +48,6 @@ This application allows users to:
 # License
 This project is licensed under the MIT
 
-# Author
+## Author
 This repository is maintained by:
  - [Austin Obonyo](https://github.com/Austinjnr)

@@ -5,9 +5,9 @@ Review.destroy_all
 
 #users
 puts "Generating users ..."
-user1 = User.create(name: Faker==Name.name)
-user2 = User.create(name: Faker==Name.name)
-user3 = User.create(name: Faker==Name.name)
+user1 = User.create(name: Faker::Name.name)
+user2 = User.create(name: Faker::Name.name)
+user3 = User.create(name: Faker::Name.name)
 
 #products
 puts "Generating products ..."

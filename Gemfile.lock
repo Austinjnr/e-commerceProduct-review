@@ -47,12 +47,12 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  activerecord
+  activerecord (~> 7.0, >= 7.0.4.2)
   faker
   pry
   rake (~> 13.0, >= 13.0.6)
   require_all
-  sinatra-activerecord
+  sinatra-activerecord (~> 2.0, >= 2.0.26)
   sqlite3
 
 BUNDLED WITH

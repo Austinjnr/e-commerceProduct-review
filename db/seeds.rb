@@ -1,6 +1,7 @@
 puts "Deleting old data ..."
 Product.destroy_all
 User.destroy_all
+Review.destroy_all
 
 #users
 puts "Generating users ..."
@@ -19,8 +20,8 @@ product6 = Product.create(name: "KAWSxLV collactibles toys", price: 760)
 
 # reviews
 puts "Creating reviews..."
-Review.create(comment: "A", star_rating: 5,user_id: user1,product_id: product1.id)
-Review.create(comment: "Amazing", star_rating: 4,user_id: user3,product_id:)
+Review.create(comment: "Fantastic", star_rating: 5,user_id: user1,product_id: product1.id)
+Review.create(comment: "Amazing", star_rating: 4,user_id: user3,product_id: product3.id)
 Review.create(comment: "Great", star_rating: 3,user_id: user1,product_id: product4.id)
 Review.create(comment: "Good", star_rating: 2.5,user_id: user3,product_id: product3.id)
 Review.create(comment: "Okay", star_rating: 2,user_id: user2,product_id: product5.id)

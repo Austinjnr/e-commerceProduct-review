@@ -7,9 +7,9 @@ This is a Ruby project for an e-commerce product reviews system. The project inc
 
 ## Application
 This application allows users to:
-- Create some products
-- Create some users
-- Create some reviews
+- View products
+- View some users
+- View and delete reviews
 
 ## Pre-Requisites
 In order to use this repository, you need the following:

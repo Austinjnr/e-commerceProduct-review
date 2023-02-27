@@ -19,7 +19,7 @@ product5 = Product.create(name: "Instant Pot Duo Nova Pressure Cooker", price: 2
 product6 = Product.create(name: "KAWSxLV collactibles toys", price: 760)
 
 # reviews
-puts "Creating reviews..."
+puts "Creating reviews ..."
 Review.create(comment: "Fantastic", star_rating: 5,user_id: user1,product_id: product1.id)
 Review.create(comment: "Amazing", star_rating: 4,user_id: user3,product_id: product3.id)
 Review.create(comment: "Great", star_rating: 3,user_id: user1,product_id: product4.id)

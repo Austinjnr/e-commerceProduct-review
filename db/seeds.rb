@@ -20,13 +20,13 @@ product6 = Product.create(name: "KAWSxLV collactibles toys", price: 760)
 
 # reviews
 puts "Creating reviews ..."
-Review.create(comment: "Fantastic", star_rating: 5,user_id: user1,product_id: product1.id)
-Review.create(comment: "Amazing", star_rating: 4,user_id: user3,product_id: product3.id)
-Review.create(comment: "Great", star_rating: 3,user_id: user1,product_id: product4.id)
-Review.create(comment: "Good", star_rating: 2.5,user_id: user3,product_id: product3.id)
-Review.create(comment: "Okay", star_rating: 2,user_id: user2,product_id: product5.id)
-Review.create(comment: "Meh", star_rating: 1,user_id: user2,product_id: product2.id)
-Review.create(comment: "Bad", star_rating: 0,user_id: user3,product_id: product2.id)
-Review.create(comment: "The Worst", star_rating: 0,user_id: user1,product_id:product6.id)
+Review.create(comment: "Fantastic", star_rating: 5, user_id: user1.id, product_id: product1.id)
+Review.create(comment: "Amazing", star_rating: 4, user_id: user3.id, product_id: product3.id)
+Review.create(comment: "Great", star_rating: 3, user_id: user1.id, product_id: product4.id)
+Review.create(comment: "Good", star_rating: 2, user_id: user3.id, product_id: product3.id)
+Review.create(comment: "Okay", star_rating: 2, user_id: user2.id, product_id: product5.id)
+Review.create(comment: "Meh", star_rating: 1, user_id: user2.id, product_id: product2.id)
+Review.create(comment: "Bad", star_rating: 0, user_id: user3.id, product_id: product2.id)
+Review.create(comment: "The Worst", star_rating: 0, user_id: user1.id, product_id: product6.id)
 
 puts "Seeding done!"

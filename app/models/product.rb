@@ -7,11 +7,13 @@ class Product < ActiveRecord::Base
     end
 
     def print_all_reviews
-
+        self.reviews.each do |review|
+            review.print_review
+        end
     end
 
     def average_rating
-
+        self.reviews.average(:star_rating).to_f
     end
 
 end
